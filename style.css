@@ -1,120 +1,487 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
+@media (min-width: 1084px) {
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    .main{
+        max-width: 1440px;
+        padding: 0px 15px;
+        margin: 0px auto;
+        box-sizing: border-box;
+    }
+    .part1{
+        padding: 20px 15px 0px 15px;
+        position: relative;
+        width: 100%;
+    }
+    .subheading{
+        font-size: 24px;
+        font-weight: 800;
+        margin-bottom: 15px;
+        line-height: 1.2;
+        color: #53a92c; 
+    }
+    .container1{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 4px;
+    }
+    .checkbox{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.5;
+        color: #212529;
+        text-align: left;
+        width: 25%;
+    }
+    label{
+        display: inline-block;
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+    .part2{
+        padding: 20px 15px 0px 15px;
+        position: relative;
+        width: 100%;
+    }
+    .part3{
+        padding: 20px 15px 0px 15px;
+        position: relative;
+        width: 100%;
+    }
+    .container2{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 4px;
+    }
+    .radio{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.5;
+        color: #212529;
+        text-align: left;
+        width: 25%;
+    }
+    .part4{
+        padding: 20px 15px 0px 15px;
+        position: relative;
+        width: 100%;
+    }
+    .form_field{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 4px 0px;
+    }
+    .form_field label{
+        padding-right: 15px;
+        font-size: 16px;
+        color: #000;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        font-weight: 400;
+    }
+    .form_field_input{
+        border-radius: 0;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        font-size: 13px;
+        padding: 2px 5px;
+        height: 26px;
+        resize: none;
+        background: transparent;
+        max-width: 100%;
+        line-height: 1.5;
+        color: #495057;
+        display: block;
+        width: 100%;
+        outline: none;
+    }
+    .col{
+        flex-basis: 0;
+        flex-grow: 1;
+        max-width: 100%;
+    }
+    .btn_field{
+        margin: 16px auto;
+        display: flex;
+        flex-wrap: wrap;
+        width: 30%;
+        gap: 16px;
+    }
+    .contactBtn{
+        display: inline-block;
+        border-radius: 30px;
+        border: 1px solid #0a8f34;
+        color: #077f0d;
+        background: transparent;
+        min-width: 150px;
+        text-transform: uppercase;
+        padding: 10px 15px 7px;
+    }
 }
-.main{
-    max-width: 1440px;
-    padding: 0px 15px;
-    margin: 0px auto;
-    box-sizing: border-box;
+
+@media (min-width: 786px) and (max-width: 1083px) {
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    .main{
+        max-width: 1440px;
+        padding: 0px 15px;
+        margin: 0px auto;
+        box-sizing: border-box;
+    }
+    .part1{
+        padding: 20px 15px 0px 15px;
+        position: relative;
+        width: 100%;
+    }
+    .subheading{
+        font-size: 24px;
+        font-weight: 800;
+        margin-bottom: 15px;
+        line-height: 1.2;
+        color: #53a92c; 
+    }
+    .container1{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 4px;
+    }
+    .checkbox{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.5;
+        color: #212529;
+        text-align: left;
+        width: 33%;
+    }
+    label{
+        display: inline-block;
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+    .part2{
+        padding: 20px 15px 0px 15px;
+        position: relative;
+        width: 100%;
+    }
+    .part3{
+        padding: 20px 15px 0px 15px;
+        position: relative;
+        width: 100%;
+    }
+    .container2{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 4px;
+    }
+    .radio{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.5;
+        color: #212529;
+        text-align: left;
+        width: 25%;
+    }
+    .part4{
+        padding: 20px 15px 0px 15px;
+        position: relative;
+        width: 100%;
+    }
+    .form_field{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 4px 0px;
+    }
+    .form_field label{
+        padding-right: 15px;
+        font-size: 16px;
+        color: #000;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        font-weight: 400;
+    }
+    .form_field_input{
+        border-radius: 0;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        font-size: 13px;
+        padding: 2px 5px;
+        height: 26px;
+        resize: none;
+        background: transparent;
+        max-width: 100%;
+        line-height: 1.5;
+        color: #495057;
+        display: block;
+        width: 100%;
+        outline: none;
+    }
+    .col{
+        flex-basis: 0;
+        flex-grow: 1;
+        max-width: 100%;
+    }
+    .btn_field{
+        margin: 16px auto;
+        display: flex;
+        flex-wrap: wrap;
+        width: 30%;
+        gap: 16px;
+    }
+    .contactBtn{
+        display: inline-block;
+        border-radius: 30px;
+        border: 1px solid #0a8f34;
+        color: #077f0d;
+        background: transparent;
+        min-width: 150px;
+        text-transform: uppercase;
+        padding: 10px 15px 7px;
+    }
 }
-.part1{
-    padding: 20px 15px 0px 15px;
-    position: relative;
-    width: 100%;
+@media (min-width:500px )and (max-width: 787px) {
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    .main{
+        max-width: 1440px;
+        padding: 0px 15px;
+        margin: 0px auto;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .part1{
+        padding: 20px 15px 0px 15px;
+        position: relative;
+        width: 100%;
+    }
+    .subheading{
+        font-size: 18px;
+        font-weight: 800;
+        margin-bottom: 15px;
+        line-height: 1.2;
+        color: #53a92c; 
+    }
+    .container1{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 4px;
+        justify-content: center;
+    }
+    .checkbox{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.5;
+        color: #212529;
+        text-align: left;
+        width: 50%;
+    }
+    label{
+        display: inline-block;
+        margin-bottom: 8px;
+        font-size: 12px;
+    }
+    .part2{
+        padding: 20px 15px 0px 15px;
+        position: relative;
+        width: 100%;
+    }
+    .part3{
+        padding: 20px 15px 0px 15px;
+        position: relative;
+        width: 100%;
+    }
+    .container2{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 4px;
+        justify-content: center;
+    }
+    .radio{
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.5;
+        color: #212529;
+        text-align: left;
+        width: 50%;
+    }
+    .part4{
+        padding: 20px 15px 0px 15px;
+        position: relative;
+        width: 100%;
+    }
+    .form_field{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 4px 0px;
+    }
+    .form_field label{
+        padding-right: 15px;
+        font-size: 14px;
+        color: #000;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        font-weight: 400;
+    }
+    .form_field_input{
+        border-radius: 0;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        font-size: 11px;
+        padding: 2px 5px;
+        height: 26px;
+        resize: none;
+        background: transparent;
+        max-width: 100%;
+        line-height: 1.5;
+        color: #495057;
+        display: block;
+        width: 100%;
+        outline: none;
+    }
+    .btn_field{
+        margin: 16px auto;
+        display: flex;
+        flex-wrap: wrap;
+        width: 30%;
+        gap: 16px;
+        justify-content: center;
+    }
+    .contactBtn{
+        display: inline-block;
+        border-radius: 30px;
+        border: 1px solid #0a8f34;
+        color: #077f0d;
+        background: transparent;
+        min-width: 150px;
+        text-transform: uppercase;
+        padding: 10px 15px 7px;
+    }
 }
-.subheading{
-    font-size: 24px;
-    font-weight: 800;
-    margin-bottom: 15px;
-    line-height: 1.2;
-    color: #53a92c; 
-}
-.container1{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0px 4px;
-}
-.checkbox{
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
-    width: 25%;
-}
-label{
-    display: inline-block;
-    margin-bottom: 8px;
-    font-size: 14px;
-}
-.part2{
-    padding: 20px 15px 0px 15px;
-    position: relative;
-    width: 100%;
-}
-.part3{
-    padding: 20px 15px 0px 15px;
-    position: relative;
-    width: 100%;
-}
-.container2{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0px 4px;
-}
-.radio{
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
-    width: 25%;
-}
-.part4{
-    padding: 20px 15px 0px 15px;
-    position: relative;
-    width: 100%;
-}
-.form_field{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 4px 0px;
-}
-.form_field label{
-    padding-right: 15px;
-    font-size: 16px;
-    color: #000;
-    text-transform: uppercase;
-    margin-bottom: 0;
-    font-weight: 400;
-}
-.form_field_input{
-    border-radius: 0;
-    border: none;
-    border-bottom: 1px solid #ccc;
-    font-size: 13px;
-    padding: 2px 5px;
-    height: 26px;
-    resize: none;
-    background: transparent;
-    max-width: 100%;
-    line-height: 1.5;
-    color: #495057;
-    display: block;
-    width: 100%;
-    outline: none;
-}
-.col{
-    flex-basis: 0;
-    flex-grow: 1;
-    max-width: 100%;
-}
-.btn_field{
-    margin: 16px auto;
-    display: flex;
-    flex-wrap: wrap;
-    width: 30%;
-    gap: 16px;
-}
-.contactBtn{
-    display: inline-block;
-    border-radius: 30px;
-    border: 1px solid #0a8f34;
-    color: #077f0d;
-    background: transparent;
-    min-width: 150px;
-    text-transform: uppercase;
-    padding: 10px 15px 7px;
+@media (max-width:500px) {
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    .main{
+        max-width: 1440px;
+        padding: 0px 15px;
+        margin: 0px auto;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .part1{
+        padding: 20px 15px 0px 15px;
+        position: relative;
+        width: 100%;
+    }
+    .subheading{
+        font-size: 18px;
+        font-weight: 800;
+        margin-bottom: 15px;
+        line-height: 1.2;
+        color: #53a92c; 
+    }
+    .container1{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 4px;
+        justify-content: center;
+    }
+    .checkbox{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.5;
+        color: #212529;
+        text-align: left;
+        width: 100%;
+    }
+    label{
+        display: inline-block;
+        margin-bottom: 8px;
+        font-size: 12px;
+    }
+    .part2{
+        padding: 20px 15px 0px 15px;
+        position: relative;
+        width: 100%;
+    }
+    .part3{
+        padding: 20px 15px 0px 15px;
+        position: relative;
+        width: 100%;
+    }
+    .container2{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 4px;
+        justify-content: center;
+    }
+    .radio{
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.5;
+        color: #212529;
+        text-align: left;
+        width: 50%;
+    }
+    .part4{
+        padding: 20px 15px 0px 15px;
+        position: relative;
+        width: 100%;
+    }
+    .form_field{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 4px 0px;
+    }
+    .form_field label{
+        padding-right: 15px;
+        font-size: 14px;
+        color: #000;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        font-weight: 400;
+    }
+    .form_field_input{
+        border-radius: 0;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        font-size: 11px;
+        padding: 2px 5px;
+        height: 26px;
+        resize: none;
+        background: transparent;
+        max-width: 100%;
+        line-height: 1.5;
+        color: #495057;
+        display: block;
+        width: 100%;
+        outline: none;
+    }
+    .btn_field{
+        margin: 16px auto;
+        display: flex;
+        flex-wrap: wrap;
+        width: 30%;
+        gap: 16px;
+        justify-content: center;
+    }
+    .contactBtn{
+        display: inline-block;
+        border-radius: 30px;
+        border: 1px solid #0a8f34;
+        color: #077f0d;
+        background: transparent;
+        min-width: 150px;
+        text-transform: uppercase;
+        padding: 10px 15px 7px;
+    }
 }
