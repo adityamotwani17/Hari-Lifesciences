@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application-Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <form action="">
+            <div class="part1">
+                <h2 class="subheading">APPLICATION FOR -</h2>
+                <div class="container1">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="applicationfor" value="7 Days training">  7 Days training
+                        </label>     
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="applicationfor" value="15 Days training">  15 Days training
+                        </label>     
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="applicationfor" value="21 Days training">  21 Days training
+                        </label>     
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="applicationfor" value="30 Days training">  30 Days training
+                        </label>     
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="applicationfor" value="45 Days training">  45 Days training
+                        </label>     
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="applicationfor" value="2 months training">  2 months training
+                        </label>     
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="applicationfor" value="3 months training">  3 months training
+                        </label>     
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="applicationfor" value="4 months training">  4 months training
+                        </label>     
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="applicationfor" value="6 months training">  6 months training
+                        </label>     
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="applicationfor" value="1 year training">  1 year training
+                        </label>     
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="applicationfor" value="1 - 2 Days workshop">  1 - 2 Days workshop
+                        </label>     
+                    </div>
+                </div>
+            </div>
+            <div class="part2">
+                <h2 class="subheading">COURSES APPLIED FOR -</h2>
+                <div class="container1">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="courses_applied" value="Basic Technical Modules">  Basic Technical Modules
+                        </label>     
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="courses_applied" value="Advanced Technical Modules">  Advanced Technical Modules
+                        </label>     
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="courses_applied" value="Industrial Technical Modules">  Industrial Technical Modules
+                        </label>     
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="courses_applied" value="Project/Dissertation + Placement">  Project/Dissertation + Placement
+                        </label>     
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="courses_applied" value="Project/Dissertation (Without Placement)">  Project/Dissertation (Without Placement)
+                        </label>     
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="courses_applied" value="Job Training Program for passout">  Job Training Program for passout
+                        </label>     
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="courses_applied" value="Online Training Program">  Online Training Program
+                        </label>     
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="courses_applied" value="Workshop & Seminars">  Workshop & Seminars
+                        </label>     
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="courses_applied" value="Study Abroad">  Study Abroad
+                        </label>     
+                    </div>
+                </div>
+            </div>
+            <div class="part3">
+            <h2 class="subheading">HOSTEL FACILITIES REQUIRED -</h2>
+            <div class="container2">
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="hotelfacilities" value="yes"> Yes
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="hotelfacilities" value="no"> No
+                    </label>
+                </div>
+            </div>
+            </div>
+            <div class="part4">
+                <div class="form_field">
+                    <label for="name">Name of the applicant :-</label>
+                    <input type="text" class="form_field_input col" name="applicant_name" id="name" autocomplete="off">
+                </div>
+                <div class="form_field">
+                    <label for="f_name">Father's Name :-</label>
+                    <input type="text" class="form_field_input col" name="father_name" id="f_name" autocomplete="off">
+                </div>
+                <div class="form_field">
+                    <label for="p_address">Permanent Address :-</label>
+                    <textarea name="address" id="p_address" cols="30" rows="3" class="form_field_input col" autocomplete="off"></textarea>
+                </div>
+                <div class="form_field">
+                    <label for="pincode">Pincode :-</label>
+                    <input type="text" maxlength="6" class="form_field_input col" name="pincode" id="pincode" autocomplete="off">
+                </div>
+                <div class="form_field">
+                    <label for="location">Training centre :-</label>
+                    <select name="location1" id="location" class="form_field_input col">
+                        <option value="">-- Select Location --</option>
+                        <option value="Noida">Noida</option>
+                        <option value="Agra">Agra</option>
+                        <option value="Lucknow">Lucknow</option>
+                        <option value="Mohali (chandigarh)">Mohali (chandigarh)</option>
+                        <option value="Bhopal">Bhopal</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Ahmedabad (Gujarat)">Ahmedabad (Gujarat)</option>
+                        <option value="Dehradun">Dehradun</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                    </select>
+                </div>
+                <div class="form_field">
+                    <label for="phone">Contact No. :-</label>
+                    <input type="text" required="" name="phone" maxlength="11" id="phone" class="form_field_input col" autocomplete="off">
+                </div>
+                <div class="form_field">
+                    <label for="email">Email ID :-</label>
+                    <input type="email" id="email" name="email_id" class="form_field_input col" autocomplete="off">
+                </div>
+                <div class="form_field">
+                    <label for="college">College / University Name :-</label>
+                    <input type="text" id="college" name="collage_name" class="form_field_input col" autocomplete="off">
+                </div>
+                <div class="form_field">
+                    <label for="joining">Tentative date of Joining :-</label>
+                    <input type="text" name="doj" class="form_field_input col" autocomplete="off" placeholder="DD/MM/YYYY">
+                </div>
+                <div class="btn_field">
+                    <input type="button" onclick="validationemp()" class="contactBtn" value="Submit">
+                    <button class="contactBtn" type="reset">Reset</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
